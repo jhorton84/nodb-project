@@ -54,6 +54,136 @@ box-sizing:inherit
 
 /* DO NOT TOUCH ABOVE THIS LINE!!! --- RESET.CSS */
 
+.App {
+  width:100%;
+  height:750px;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  /* background:yellow; */
+  background-image: url('./images/sunriseEarth.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  /* background: lightgray; */
+  
+}
+
+
+
 h1 {
   font-size:50px;
+  color:rgb(255, 242, 141);
+  padding:25px;
+}
+
+h2 {
+  font-size: 20px;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  font-size: 65px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: monospace;
+  align-content: space-around;
+  margin: 0 auto;
+}
+
+header > img {
+  height:100px;
+  /* margin-left: 50px; */
+  display:flex;
+  justify-content:space-around;
+}
+
+header > ul {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  /* margin pushes li away from the right edge */
+  /* margin-right: 50px; */
+  /* justify-content: flex-end; */
+  /* padding:75px; */
+}
+
+/* padding is pushing the li's away from each other */
+li {
+  padding:20px;
+  color: rgb(255, 242, 141);
+  display:flex;
+  
+}
+main {
+  
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+}
+.App {
+  height: 600px;
+}
+
+.App > img {
+  width: 100%;
+  margin-top: 10px;
+}
+.image-box {
+  height: 350px;
+  width:600px;
+  /* background: white; */
+  display:flex;
+  justify-content: center;
+}
+
+button {
+  margin:5px;
+}
+
+.bottomButtons {
+  margin:10px;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  /* background: rgb(51, 51, 121); */
+  color: black;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: monospace;
+  align-content: space-around;
+  margin: 0 auto;
+}
+
+.image-box img {
+  height: 100%;
+  display:flex;
+  justify-content: center;
+}
+
+.favorite-images {
+  display:flex;
+  flex-direction: row;
+  margin: 5px;
+  
+}
+
+.favorite-images img {
+  height: 100px;
+  flex-wrap: wrap;
 }
